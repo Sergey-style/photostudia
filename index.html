@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+<title>Фото студия</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="css/style.css"/>
+<meta charset="UTF-8"/>
+<!--Адаптив-->
+<!-- <meta name="viewport" content="width=1562">фикс адаптив,в css body min-width: 1562px;-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">лайфхак(необязательно)-->
+<meta name="viewport" content="width=device-width"><!-- отзывчивая верстка(резиновая),в body ничего, ширины во flex в %,для container указ max-width,везде нет фикс знач.-->
+
+<!--<meta name="viewport" content="width=device-width"> адаптивная верстка это тоже самое что и отзывчивая + медиазапрсы с контрольными точками 
+
+                           все что шире 1200px это современные мониторы
+
+@media(max-width:1200px){  для старых мониторов поменьше
+container{
+    max-width:970px;    
+    }
+}
+@media(max-width:992px){   для планшетов
+container{
+    max-width:750px;    
+    }
+}
+@media(max-width:767px){   для смартфонов
+container{
+    max-width:none;    
+    }
+}
+
+
+-->
+
+<!--<meta name="viewport" content="width=device-width">отзывчиво адаптивная,медиазапросы 
+    в соответствии с конкретным макетом по обстоятельстамбплюс брэкпоинты
+    @media(){
+    
+    }
+-->
+ <!-- мобайл ферст,та же отзывчиво адаптивная,только min-width
+    @media(min-width:767px){}
+    @media(min-width:992px){}
+
+  -->
+</head>
+<body>
+    <form action="#"method="get"> <!--form action="#" method="post" enctype="multipart/form-data"-->
+
+ 
+ <div class="wrapper">
+    <div class="content">
+    <!--контент-->
+    <header class="header">
+        <div class="container"><!--огранич шир конт части-->
+
+            <div class="header_body">
+                <a href="#" class="header_logo">
+                     <img src="logo/studio_logo_11771.png" alt="ой"><!--наш логотип-->
+                </a>
+
+                <div class="header_burger"><!--бургер-->
+                     <span></span>
+                </div>
+
+                <nav class="header_menu"><!--меню слова-->
+                        <ul class="header_list">
+                            <li><a href=""class="header_link">Individuals </a></li>
+                            <li><a href=""class="header_link">Companies</a></li>
+                            <li><a href=""class="header_link">The Studio</a></li>
+                            <li><a href=""class="header_link">About Us </a></li>
+                            <li><a href=""class="header_link">Blog</a></li>
+                        </ul>
+
+                       
+                </nav>
+                <ul class="loggo_list">
+                            <li>
+                                <a href="#" class="loggo_link">
+                                    <img src="logo/fb_11189.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="loggo_link">
+                                    <img src="logo/in_11190.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="loggo_link">
+                                    <img src="logo/li_11191.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="loggo_link">
+                                    <img src="logo/yp_11192.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="loggo_link">
+                                    <img src="logo/ggle_11193.png">
+                                </a>
+                            </li>
+                </ul> 
+            </div>
+
+        </div>   
+    </header>
+
+
+<!-- --------------------------------------------------------------------------------- -->
+    <div class="fast">
+        <img src="img/rectangle_7_1394.png">
+    </div> 
+<!-- ----------------------------------------------------------------------------------- -->
+    <div class="block1">
+        
+    </div>
+<!-- ------------------------------------------------------------------------------------>
+<div class="sessions">
+        <div class="sessions_row">
+            <div class="sessions_row_left">
+                    <div class="sessions_logo_left">
+                        <img src="logo/individual_icon_11408.png">
+                    </div>    
+                    <div class="sessions_title_left">Individual Sessions</div>
+                    <div class="sessions_number_left">
+                        <ul class="sessions_number_left_left">
+                         <li><img src="logo/1_11413.png"><br><span>Studio Sessions</span></li>
+                         <li><img src="logo/2_11419.png"><br><span>Outdoor Sessions</span></li>
+                         <li><img src="logo/3_11423.png"><br><span>In-Office Sessions</span></li>
+                        </ul>
+                    </div>
+                   
+                    <div class="sessions-bottom">
+                        <a href="#" class="sessions-bottom_link">See More</a>
+                    </div>
+            </div>
+
+            <div class="sessions_row_right">
+                    <div class="sessions_logo_right">
+                         <img src="logo/companies_icon_11410.png">
+                    </div>
+                    <div class="sessions_title_right">Companies Sessions</div>
+                    <div class="sessions_number_right">
+                        <ul class="sessions_number_right_right">
+                         <li><img src="logo/1_11453.png"><br><span>Group On-Sites</span></li>
+                        <li><img src="logo/2_11449.png"><br><span>Corporate Accounts</span></li>
+                        </ul>
+                        
+                    </div>
+                   
+                    <div class="sessions-bottom">
+                         <a href="#" class="sessions-bottom_link">See More</a>
+                    </div>
+            </div>
+        </div>
+      
+    
+</div>
+<!------------------------------------------------------------------------------------------->
+<div class="map_row">
+    <div class="container">
+    <div class="map_column"> <!--нужен чтобы сделать отступ внутр до рамки-->
+        <div class="map_column_column">
+            <div class="map_column_title">Studio Near Me</div>
+            <div class="map_column_text">Search for your professional by zip code:</div>
+            <div class="map_input">
+                <input class="map_input_input" tabindex="1" type="text" name="text">
+                <div class="map-bottom">
+                    <a href="#" class="map-bottom_link">Search</a>
+                </div>    
+            </div>
+        </div>
+    </div>
+    </div>                        
+</div>
+<!-- ---------------------------------------------------------------------------------------- -->
+
+<div class="professional">
+    <div class="container">
+        <div class="professional_row"><!--контейнер1-->
+                    <div class="professional_body"><!--элемент1-->
+                           <div class="professional_title">Our professional services</div>
+                        <ul class="professional_list">                             
+                            <li><a href=""class="professional_link">All</a></li>
+                            <li><a href=""class="professional_link">Modeling </a></li>
+                            <li><a href=""class="professional_link">Acting</a></li>
+                            <li><a href=""class="professional_link">Corporate</a></li>
+                            <li><a href=""class="professional_link">Business</a></li>
+                            <li><a href=""class="professional_link">Professional</a></li>
+                            <li><a href=""class="professional_link">Group</a></li>
+                            <li><a href=""class="professional_link">Company</a></li>
+                            <li><a href=""class="professional_link">Officer</a></li>
+                        </ul>                       
+                    </div>
+                    <div class="professional_foto">
+                        <div class="professional_foto_small_row"><!--элемент2-->
+                            <div class="professional_foto_body_left">
+                                <div class="professional_foto_body_left_uber">
+                                    <ul>
+                                        <li><img src="img/img_copy_11791.png"></li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="img/img_11790.png"></li>
+                                    </ul>
+                                </div>
+                                <div class="professional_foto_body_left_unter">
+                                    <ul>
+                                        <li><img src="img/img_11794.png"></li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="img/img_11796.png"></li>
+                                    </ul>
+                                </div>    
+                            </div>
+                        </div>
+
+                         <div class="professional_foto_big_row"><!--элемент2-->
+                            <div class="professional_foto_body_right">
+                                <img src="img/img_11789.png">
+                            </div>
+                        </div>
+                    </div>    
+
+                                            
+    </div>
+
+    
+</div>
+<!------------------------------------------------------------------------------------->
+
+<div class="why">
+    <div class="container">
+        <div class="why_row">
+                <div class="why_up_column">
+                        <div class="why_up_left_column">
+                            <div class="why_up_left_title">Why are headshots<br> important?
+                            </div>
+                            <div class="why_up_left_text">
+                                It may not seem indispensable, but lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi enim, finibus non malesuada vitae, porttitor vitae enim. Nulla eget fringilla libero, ut ultricies neque. Morbi id aliquet sem. Ut mattis diam sit amet orci faucibus dignissim. Aliquam erat volutpat. Curabitur eu efficitur quam.
+                            </div>
+                            <div class="why_up_left_logo">
+                                <img src="logo/arrow_icon_11803.png">
+                            </div>
+                        </div>    
+                
+        
+
+                        <div class="why_up_right_column">
+                                <div class="tips_column_list_left">
+                                    <ul class="tips_column_list_left_text">
+                                        <li><img src="logo/5_useful_tips_11831.png"></li>
+                                                                 <li>Go professional, it’s worth it,
+                                            because cheap looks cheap.</li>
+                                                                 <li>It’s all about the eyes and
+                                            what’s behind them.</li>
+                                            
+                                           
+                                    </ul>
+                                </div> 
+                                <div class="tips_column_list_right">
+                                         
+                                      <ul class="tips_column_list_right_text">
+                                                                   <li>Make sure it looks like you,
+                                            not like you want to be.</li>
+                                                                   <li>Control framing, lighting
+                                            & background.</li>
+                                                                   <li>Stay chill with clothing &
+                                            makeup, you must be you.</li>
+                                      </ul>
+                                </div> 
+                        </div>
+
+                </div>    
+
+                <div class="black_column">
+                    <div class="black_content">
+                            <div class="black_column_title">Professional Headshot Services</div>
+                            <div class="black_column_text">
+                                <p>Studio Inc is maecenas vulputate, sem at auctor vulputate, elit nunc sagittis ligula, vitae pulvinar metus elit in ante. Aenean tincidunt erat ac ante placerat facilisis. Fusce sed ligula tortor. Quisque non dignissim erat. Vestibulum ante ipsum primis in faucibus.</p>
+
+                                <p>Covid-19 Update: We are open for studio, office, and outdoor sessions. For more information
+                                on our safety procedures, visit Studio Covid-19 Guidelines.</p>
+                            </div>
+                    </div>        
+                </div>       
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------------------------- -->
+<div class="clients">
+    <div class="container">
+        <div class="clients_row">
+            <div class="clients_title">Clients love us</div>
+            <div class="clients_subtitle">We have formed true friendships.</div>
+            <div class="clients_column">
+                <div class="clients_column_1">
+                    <div><img src="img/img_10902.png"></div>
+                    <div class="clients_name_name">
+                        Andrea Mcconnell
+                    </div>
+                    <div class="clients_logo_logo">
+                        Studio is exactly what our business has been
+                         lacking. I will recommend them to everyone.
+                    </div>
+                    
+                </div>
+
+                <div class="clients_column_2">
+                    <div><img src="img/img_10905.png"></div>
+                    <div class="clients_name_name">
+                        Marvin Luna
+                    </div>
+                    <div class="clients_logo_logo">
+                        Studio impressed me on multiple levels.
+                        Studio is worth much more than offered.
+                    </div>
+                    
+                </div>
+
+                <div class="clients_column_3">
+                    <div><img src="img/img_10908.png"></div>
+                    <div class="clients_name_name">
+                        Shanai Haas
+                    </div>
+                    <div class="clients_logo_logo">
+                        Studio saved my job interview. Keep up with
+                        the excellent work!
+                    </div>
+                    
+                </div>
+
+
+
+                
+            </div>
+            
+           
+
+        </div>
+        
+    </div>
+    
+</div>
+<!-- --------------------------------------------------------------------------->
+
+<div class="combo">
+    <div class="container">
+        <div class="combo_row">
+            <div class="combo_title">
+                Fast, convenient & friendly<br>
+                professional headshot sessions.
+            </div>
+            <div class="combo-botton">
+                <a class="combo_btn" href="">About Us</a>
+            </div> 
+        </div>
+    </div>    
+</div>
+<!-- ---------------------------------------------------------------------- -->
+<div class="blog">
+    <div class="container">
+        <div class="blog_row">
+            <div class="blog_title">Our Blog</div>
+            <div class="blog_subtitle">Check our latest news.</div>
+            <div class="blog_column">
+                <div class="blog_column_1">
+                    <div class="blog_column_item">
+                    <div class="blog_img">
+                        <img src="img/img_11019.png">
+                    </div>
+                    <div class="blog_name_name">
+                        all about headshots inside professional studios
+                    </div>
+                    <div class="blog_coment_coment">
+                    </div>
+                    </div>
+                    
+                </div>
+
+                <div class="blog_column_2">
+                    <div class="blog_column_item">
+                    <div class="blog_img">
+                        <img src="img/img_11009 (1).png">
+                    </div>
+                    <div class="blog_name_name">
+                        How do professionals edit
+                        their photos and What photo editing software they use
+                    </div>
+                    <div class="blog_coment_coment">
+                    </div>
+                    </div>
+                </div>
+
+                <div class="blog_column_3">
+                    <div class="blog_column_item">
+                    <div class="blog_img">
+                         <img src="img/img_10987.png"> 
+                    </div>
+                    <div class="blog_name_name">
+                        best Courses In Photography
+                        from home
+                    </div>
+                    <div class="blog_coment_coment">
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+           
+           
+        </div>
+        
+    </div>
+    
+</div>
+<!-- ------------------------------------------------------------------------->
+ </div>
+<div class="footer">
+    <div class="container">
+        <div class="footer_row"> 
+            <div class="footer_column_up">
+                <div class="footer_up_logo"><img src="logo/studio_logo_11885.png"></div>
+                <div class="footer_up_links">
+                    <div class="footer_up_links_title">links</div>
+                    <ul class="footer_up_links_text">
+                        <li>Individuals</li>
+                        <li>Companies</li>
+                        <li>The Studio</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                    </ul>
+                                                                 
+                </div>
+                <div class="footer_up_resurs">
+                    <div class="footer_up_resurs_title">Resources</div>
+                  <ul class="footer_up_resurs_text">
+                      <li>Lorem ipsum dolor sit amet, consectetur adipis.</li>
+                      
+                      <li>Donec nisi enim, finibus non malesuada vitae. </li>
+                                                                 
+                      <li>Nulla eget fringilla libero, ut ultricies neque.</li>
+                                                                        
+                      <li>Morbi id aliquet sem. Ut mattis diam sit amet. </li>
+                                                                        
+                      <li>Curabitur eu efficitur quam. Fusce interdum sem.</li>
+                                                                         
+                  </ul>
+                </div>
+            </div>
+            <div class="footer_column_daun">
+
+                <div class="footer_daun_studio">
+                    <div class="footer_daun_studio_title">Studio Inc</div>
+                    <ul class="footer_daun_studio_text">
+                        <li>125 Southern Way</li>
+
+                        <li>EH23 1SZ</li>
+                                     
+                        <li>North Middleton, UK</li>
+                                        
+                    </ul>
+                                                                 
+                </div>
+                <div class="footer_daun_contact">
+                    <div class="footer_daun_contact_title">contact</div>
+                    <ul class="footer_daun_contact_text">
+                        <li>(123) 345 3781</li>
+                        <li>smile@studio-inc.com</li>
+                        
+                    </ul>
+                                                               
+                </div>
+                <div class="footer_daun_nets">
+                  <ul class="footer_daun_nets_text">
+                    <li>Facebook</li>
+                    <li>Instagram
+                                </li>
+                    <li>Linkedin
+                                </li>
+                    <li>Google Rating
+                                </li>
+                    <li>Yelp
+                                </li>
+                  </ul>                                                                        
+                  
+                </div>
+            </div>
+            <div class="footer_c_text">© 2020. All rights reserved.</div>
+        </div>
+    </div>
+    
+</div>
+  
+<!----------------------------------------------------------------------------------->
+ </div>
+           <!--Подключение jQuery-->
+           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+           <!--Подключаем файл JS скриптов-->
+           <script src="js/script.js"></script>
+    </form>
+   </body>
+ </html>
+
+
+
+
+
